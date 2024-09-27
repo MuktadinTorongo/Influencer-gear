@@ -41,7 +41,88 @@ nav > ul li a{
     display: flex;
     justify-content: space-between;
     margin: 0 45px;
+    margin-bottom: 70px;
 }
 .banner-text-containner{
-    gap: 45px;
+    margin-top: 9rem;
+
+}
+.banner-title{
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+.banner-pragraph{
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: -16px;
+}
+.banner-button{
+    padding: 10px 24px;
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    cursor: pointer;
+}
+.banner-image-containner{
+    /* width: 100%; */
+    margin-top: 3.5rem;
+    position: relative;
+}
+.Circle-design{
+    position: relative;
+    bottom: 25px;
+    left: 5px;
+    width: 100%;
+}
+.main-camera{
+    position: absolute;
+    right: 30px;
+    width: 100%;
+
+}
+
+/* Sponsors styles start */
+.sponsors{
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 1px 2px rgb(231, 227, 227);
+    width: 1200px;
+    height: 90px;
+    /* background: #FFF; */
+    /* align-items: center; */
+    text-align: center;
+    margin: 0 165px;
+}
+.sponsors-img-container{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 75px;
+}
+.sponsors-img-container img{
+    width: 95px;
+}
+
+@media screen and (max-width: 567px) {
+    nav,
+    nav > ul,
+    .banner,
+    .sponsors,
+    .sponsors-img-container{
+        flex-direction: column;
+    }
+    .banner{
+        margin-top: -100px;
+    }
+    .sponsors{
+        box-shadow: none;
+        width: 0;
+        margin-top: 325px;
+    }
+    .sponsors-img-container{
+        gap: 45px;
+    }
 }
