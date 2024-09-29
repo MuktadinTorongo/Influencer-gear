@@ -136,9 +136,6 @@ nav > ul li a{
     margin-top: 30px;
     padding: 20px;
 }
-.collection-img img{
-    /* width: 100%; */
-}
 .collection-img-title{
     color: #18191F;
     font-size: 1.5rem;
@@ -159,6 +156,7 @@ nav > ul li a{
     letter-spacing: 0.252px;
     margin-top: -15px;
 }
+/* Featured-products styles */
 
 /* Responsive Styles ................................*/
 @media screen and (max-width: 567px) {
